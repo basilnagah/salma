@@ -17,7 +17,7 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/salma' ,[AdminController::class,'home']);
+Route::get('/' ,[AdminController::class,'home']);
 
 
 
